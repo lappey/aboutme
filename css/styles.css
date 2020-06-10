@@ -1,0 +1,173 @@
+/** TAG SELECTORS **/
+/** TEXT **/
+h1 {
+  color: #ee8572;
+  margin: 50px auto 0 auto;
+  font-family: 'Parisienne', cursive;
+  font-size: 5.5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #ee8572;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #ee8572;
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+  text-decoration: underline;
+}
+
+/** LAYOUT **/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #EAF6F6;
+}
+
+div {
+  margin: 0;
+}
+
+hr {
+  border-color: #ee8572;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 30%;
+}
+
+/** CLASS SELECTORS **/
+/** DIVS **/
+.top-container {
+  background-color: #d4f3ef;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #abf0e9;
+  padding-top: 1px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.contact-me {
+  padding-bottom: 10px;
+}
+
+/** TEXT **/
+.copyright {
+  color: white;
+  font-size: .75rem
+}
+
+.dots {
+  color: #ee8572;
+  display: inline-block;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+/** IMAGES **/
+.top-cloud {
+  position: absolute;
+  width: 15%;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 15%;
+  left: 300px;
+  bottom: 300px;
+}
+
+.itsame {
+  width: 25%;
+}
+
+.chefimage {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.macbookimage {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.CONTACTME {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #EE8572;
+   text-shadow: 1px 1px 0 #DD380D;
+   border: solid #FFFFFF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.CONTACTME:hover {
+   background: #D01E1E;
+   border: solid #000000 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+/** ## **/
+/*
+colors
+#11999E
+#63b7af
+#66BFBF
+#abf0e9
+#d4f3ef
+#EAF6F6
+#ee8572
+*/
