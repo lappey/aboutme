@@ -1,62 +1,113 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Robert Watling</title>
-  <meta name="description" content="This is the Personal Site of me, Robert Watling">
-  <meta name="author" content="Robert Watling">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Portfolio | Robert Watling</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Parisienne&family=Roboto&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/Bigcloud.png" alt="cloud one">
-    <h1>I'm Rob</h1>
-    <h2>a <span>pro</span>grammer</h2>
-    <img class="bottom-cloud" src="images/Bigcloud.png" alt="cloud two">
-    <img src="images/mountain.png" alt="mountain image">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="itsame" src="images/itsame.png" alt="picture of me">
-      <h2>Hello.</h2>
-      <p>I'm rob. I'm a full time chef and part time web developer. I'm English, but have been living in scotland since 2009. I 🧡 my cats!</p>
+  <header>
+    <h1>Robert Watling</h1>
+    <p>IT Professional | Tech Enthusiast</p>
+  </header>
+  
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <section class="hero">
+    <div class="container">
+      <h1>Building Tech Solutions</h1>
+      <p>Welcome to my portfolio! I specialize in hardware configurations, network solutions, and creating efficient IT systems.</p>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="chefimage" src="images/chef.png" alt="chef image">
-        <h3>Cooking</h3>
-        <p>I've been cooking since I moved from home to scotland and quickly found out I loved it. I love chalenging myself to make my own versions of takeaway foods!</p>
-      </div>
-      <div class="skill-row">
-        <img class="macbookimage" src="images/macbook.png" alt="macbook image">
-        <h3>Web Development</h3>
-        <p>During High School I used to create websites constantly using sites like Geocities. Years later I still enjoy it, but added knowledge about the rest of Web Dev such as CSS during university and Javascript during the quarentine.</p>
+  </section>
+  
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Technical Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/320" alt="Custom PC Build">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Custom PC Builds</h3>
+            <p>Design and assembly of high-performance computers optimized for specific use cases like gaming, content creation, and business applications.</p>
+            <p><strong>Technologies:</strong> PC hardware, BIOS configuration, cooling systems, performance tuning</p>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/320" alt="Pi-hole Setup">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Pi-hole Network-wide Ad Blocking</h3>
+            <p>Implementation of Pi-hole on Raspberry Pi to create a network-wide ad blocking solution, improving browsing experience and network security.</p>
+            <p><strong>Technologies:</strong> Raspberry Pi, Linux, DNS, network configuration</p>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/320" alt="Homelab">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Homelab (In Progress)</h3>
+            <p>Development of a comprehensive homelab environment for testing, learning, and implementing various IT solutions and services.</p>
+            <p><strong>Technologies:</strong> Virtualization, servers, networking, containers</p>
+          </div>
+        </div>
       </div>
     </div>
-    <hr>
-    <div class="contact-me">
+  </section>
+  
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skill-tags">
+        <span class="skill-tag">PC Building</span>
+        <span class="skill-tag">Hardware Troubleshooting</span>
+        <span class="skill-tag">Network Configuration</span>
+        <span class="skill-tag">Linux</span>
+        <span class="skill-tag">Raspberry Pi</span>
+        <span class="skill-tag">DNS Management</span>
+        <span class="skill-tag">Virtualization</span>
+        <span class="skill-tag">Server Management</span>
+        <span class="skill-tag">Home Networking</span>
+      </div>
+    </div>
+  </section>
+  
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a passionate IT enthusiast with a keen interest in hardware, networking, and system administration. My journey in technology began with my first computer in the mid 90s, which ignited my curiosity about how systems work and how to optimize them.</p>
+      <p>With each project, I aim to deepen my understanding of IT infrastructure and develop practical solutions to real-world problems. I'm constantly expanding my knowledge through hands-on projects and staying current with industry trends.</p>
+      <p>I'm looking for opportunities to apply my technical skills in a professional IT environment where I can continue to grow while contributing to meaningful projects.</p>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact">
+    <div class="container">
       <h2>Get In Touch</h2>
-      <h3>Any of what you see interest you?</h3>
-      <p>Click below to discuss Cooking, Coding or anything inbetween.</p>
-      <a href="mailto:Lappey@gmail.com" class="CONTACTME">Contact Me</a>
+      <p>Interested in working together or have questions about my projects?</p>
+      <p>Email: rob.watling@outlook.com</p>
+      <div class="social-links">
+        <a href="#" aria-label="GitHub">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+      </div>
     </div>
-  </div>
-
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/robert-watling-840b7430/">LinkedIn</a>
-      <p class="dots"> ... </p>
-    <a class="footer-link" href="https://twitter.com/IamRobW4Real">Twitter</a>
-      <p class="dots"> ... </p>
-    <a class="footer-link" href="https://steamcommunity.com/id/lappey">Steam</a>
-    <p class="copyright">© 2020 Robert Watling.</p>
-  </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Robert Watling. All rights reserved.</p>
+  </footer>
 </body>
-
 </html>
